@@ -1,0 +1,120 @@
+:root{
+    --dark:rgb(102, 38, 63);
+    --brown:rgb(102, 38, 57);
+    --light:white;
+    --yellow:rgb(228, 174, 13);
+    --pink:#D48A9B;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+  
+  text-align: center;
+  
+ 
+}
+.description{
+    color:var(--light);
+    font-size: 1rem;
+    text-align: center;
+}
+.heading-yellow{
+    color:var(--yellow);
+}
+.container{
+    background-color: var(--dark);
+    border:3px solid var(--light);
+    border-radius:1rem;
+    max-width:600px;
+    padding: 30px;
+    height:auto;
+    margin:2rem auto;
+    cursor:pointer;
+    -moz-box-shadow:4px 4px 4px 4px var(--brown); 
+    -webkit-box-shadow:4px 4px 4px 4px var(--brown);
+    box-shadow:4px 4px 4px 4px var(--brown);
+}
+
+.sub-heading{
+    color:var(--yellow);
+    font-size: 1.1rem;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.heading{
+    color:var(--light);
+    font-size :2.5rem;
+    text-align: center;
+    margin-top:1rem;
+    font-weight: bolder;
+
+}
+#datePicker{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius:0.5rem;
+    border:1px solid var(--dark);
+    margin-bottom: 1rem;
+}
+.output{
+    border:1px solid var(--light);
+    border-radius: 0.3rem;
+   margin: 1rem auto;
+   color:var(--light);
+   padding: 1rem;
+   font-weight: 700;
+
+   
+}
+.outputDiv{
+    border:1px solid var(--light);
+    border-radius: 0.3rem;
+   margin: 1rem auto;
+   color:var(--light);
+   padding: 1rem;
+   font-weight: 700;
+
+}
+#check{
+    padding:0.5rem 1rem;
+    display: block;
+    border:1px solid var(--dark);
+    border-radius:0.7rem;
+    margin:auto;
+    color:var(--dark);
+    font-size: 1rem;
+    font-weight: 800;
+}
+.list-item{
+    
+    margin: 0 1rem;
+}
+.fa{
+    
+    display: inline-block;
+    font: normal normal normal 30px/1 FontAwesome;
+    font-size:2rem;
+   
+}
+.footer-header{
+    margin-top: 0.5rem;
+    color:white;
+}
+.list-link{
+    text-decoration: none;
+    color:white;
+    font-size :1.5rem;
+}
+.list{
+   
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+   
+}
